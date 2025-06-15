@@ -33,7 +33,7 @@ def quanto_precisa(i):
     
     if i != 0:
         ordem.append(resultado / 2)
-        #st.write(f"💧 Grupo {i + 1}: {resultado / 2:.2f} mL de água")
+        
     return resultado / 2
 
 if submitted:
