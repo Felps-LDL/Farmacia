@@ -44,7 +44,7 @@ if submitted:
     st.write("### Volume (em mL) por grupo:")
     ml_primeiro = quanto_precisa(0) * 2
 
-    st.write(f"💊 **Massa de substância VII:** {(ml_primeiro / 10 * 25):.4f} mg")
+    st.write(f"💊 **Massa de substância VII:** {(ml_primeiro / 10 * {concentracao}):.4f} mg")
     st.write(f"🧪 **Grupo 1:** {ml_primeiro:.2f} mL [{concentracao} mg/kg]")
 
     temp = concentracao
